@@ -9,6 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello World</p>
         <p>Create React App as a PWA</p>
+        <p>Network Only</p>
         <a
           className="App-link"
           href="https://reactjs.org"
