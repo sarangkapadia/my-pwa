@@ -7,9 +7,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World <code>src/App.tsx</code> and save to reload.
-        </p>
+        <p>Hello World</p>
+        <p>Create React App as a PWA</p>
         <a
           className="App-link"
           href="https://reactjs.org"
