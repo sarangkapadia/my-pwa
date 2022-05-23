@@ -1,4 +1,5 @@
-/// <reference lib="webworker" />
+export {};
+/// //<reference lib="webworker" />
 /* eslint-disable no-restricted-globals */
 
 // This service worker can be customized!
@@ -7,7 +8,7 @@
 // code you'd like.
 // You can also remove this file if you'd prefer not to use a
 // service worker, and the Workbox build step will be skipped.
-
+/*
 import { clientsClaim } from "workbox-core";
 import { ExpirationPlugin } from "workbox-expiration";
 import { precacheAndRoute, createHandlerBoundToURL } from "workbox-precaching";
@@ -85,4 +86,4 @@ self.addEventListener("fetch", (event) => {
   event.respondWith(fetch(event.request));
   // or simply don't call event.respondWith, which
   // will result in default browser behaviour
-});
+});*/
