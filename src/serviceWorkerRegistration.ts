@@ -80,6 +80,7 @@ function registerValidSW(swUrl: string, config?: Config) {
               );
 
               if (registration && registration.waiting) {
+                alert("Skip waiting");
                 registration.waiting.postMessage({ type: "SKIP_WAITING" });
               }
 
